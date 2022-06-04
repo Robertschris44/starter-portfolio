@@ -1,24 +1,62 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:sans-serif;
-    box-sizing: border-box;
+   
 }
+header {
+    background-image: url("./assets/background.jpeg");
+    background-position: top;
+    background-size: cover;
+    height:900px;
+    text-align: right
+}
+header a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+header nav {
+    float: right;
+}
+
 body {
-    background-color: black;
+    background-color: grey;
+    
 }
 
 h1 {
-    font-size: 30px;
-    color: red;
+    font-size: 50px;
+    color:black;
     text-align: left;
+    font-style:italic;
+    padding-left: 20px;
+    padding-top: 50px;
+    
 }
 
-.hero {
-    padding: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+.about-me h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
 }
+
+.about-me p {
+    text-align: center;
+}
+
+.my-work h2 {
+    text-align: left;
+    font-size: xx-large;
+    font-style: italic; 
+
+}
+
+
+
+
+
+
+
 
