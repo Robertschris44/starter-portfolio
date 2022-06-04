@@ -50,7 +50,16 @@ h1 {
     text-align: left;
     font-size: xx-large;
     font-style: italic; 
+}
 
+.horiseon {
+    width: auto;
+    padding: 15px;
+    object-fit: cover;
+}
+
+.horiseon img {
+   object-fit: cover;
 }
 
 
