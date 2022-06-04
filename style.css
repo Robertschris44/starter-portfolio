@@ -52,14 +52,9 @@ h1 {
     font-style: italic; 
 }
 
-.horiseon {
-    width: auto;
-    padding: 15px;
+.horiseonImg, .run-buddyImg {
     object-fit: cover;
-}
-
-.horiseon img {
-   object-fit: cover;
+    max-width: 50%;
 }
 
 
