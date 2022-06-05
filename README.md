@@ -8,3 +8,4 @@ created and linked a css sheet to the html to edit html website
 starter-portfolio is a website created to give to professional web developers to look at my progress and creations as a web developer
 Putting "About Me" "Work" and "Contact Me" on the top right for easy navigation
 Inputting photos that have links attached to them for easy navigation for users
+Input various ways to contact me on the very bottom so it is clear to see for visitors
