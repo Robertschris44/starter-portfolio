@@ -9,3 +9,4 @@ starter-portfolio is a website created to give to professional web developers to
 Putting "About Me" "Work" and "Contact Me" on the top right for easy navigation
 Inputting photos that have links attached to them for easy navigation for users
 Input various ways to contact me on the very bottom so it is clear to see for visitors
+Added "id" to link the header words to the specific link on the page ie: about me, my work, and contact me

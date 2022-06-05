@@ -56,9 +56,13 @@ h1 {
     font-style: italic; 
 }
 
-.horiseonImg, .run-buddyImg {
+ .run-buddyImg {
     object-fit: cover;
-    max-width: 50%;
+    max-width: 70%;
+}
+.horiseonImg{
+    object-fit: cover;
+    max-width: 90%;
 }
 
 footer{
