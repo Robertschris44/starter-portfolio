@@ -24,7 +24,7 @@ header nav {
 }
 
 body {
-    background-color:black;
+    background-color: black;
 }
 
 h1 {
@@ -93,11 +93,23 @@ footer a {
 
 }
 
- @media screen and (max-width: 750px) {
-    .horiseon, .run-buddy {
-        margin-left: 80px;
-        margin-right: 80px;
-        width: 100%;
+ @media (max-width: 980px) {
+    .header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+}
+
+@media (max-width: 768px) {
+    .section {
+      padding: 30px 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+      width: 100%;
     }
 }
 
