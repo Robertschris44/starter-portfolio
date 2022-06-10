@@ -1,8 +1,9 @@
 * {
-    padding: 0;
-    margin: 0;
-   
+    padding: 0px;
+    margin: 0px;
+   box-sizing: border-box;
 }
+
 header {
     background-image: url("./assets/background.jpeg");
     background-position: top;
@@ -24,7 +25,6 @@ header nav {
 
 body {
     background-color:black;
-    
 }
 
 h1 {
@@ -49,24 +49,37 @@ h1 {
     color: red;
 }
 
+.my-work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
 .my-work h2 {
-    text-align: left;
+    text-align: center;
     color: red;
     font-size: xx-large;
     font-style: italic; 
+    justify-content: center;
 }
 
  .run-buddyImg {
-    object-fit: cover;
-    max-width: 70%;
+    background-image: cover;
 }
 .horiseonImg{
-    object-fit: cover;
-    max-width: 90%;
+    background-image: cover;
 }
+.horiseon, .run-buddy {
+    display: flex;
+    justify-content: center;
+}
+
 
 footer{
     text-align: center;
+    margin-top: 60px;
 }
 
 footer a {
@@ -80,6 +93,13 @@ footer a {
 
 }
 
+ @media screen and (max-width: 750px) {
+    .horiseon, .run-buddy {
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+    }
+}
 
 
 
