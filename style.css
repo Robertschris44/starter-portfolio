@@ -8,7 +8,8 @@ header {
     background-image: url("./assets/background.jpeg");
     background-position: top;
     background-size: cover;
-    height:700px;
+    height:500px;
+    width: 500px;
     text-align: right
 }
 header a{
@@ -71,7 +72,7 @@ h1 {
 .horiseonImg{
     background-image: cover;
 }
-.horiseon, .run-buddy {
+.horiseon, .run-buddy .project-1 {
     display: flex;
     justify-content: center;
 }
