@@ -20,6 +20,7 @@ Added "id" to link the header words to the specific link on the page ie: about m
 ![](./assets/background.jpeg) 
 ![](./assets/Horiseon.jpg)
 ![](./assets/run-buddy.jpeg)
+![](./assets/news.jpeg)
 
 ## Screen sizing
 Setup media query for the page to be responsive for various screens and devices. Will just set is for "All"
