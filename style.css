@@ -72,7 +72,7 @@ h1 {
 .horiseonImg{
     background-image: cover;
 }
-.horiseon, .run-buddy .project-1 {
+.horiseon, .run-buddy .project-1 .project-2 {
     display: flex;
     justify-content: center;
 }
