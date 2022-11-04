@@ -66,13 +66,17 @@ h1 {
     justify-content: center;
 }
 
- .run-buddyImg {
+ .blogs-img {
+    background-image: cover;
+}
+
+.run-buddyImg {
     background-image: cover;
 }
 .horiseonImg{
     background-image: cover;
 }
-.horiseon, .run-buddy .project-1 .project-2 {
+.horiseon, .run-buddy .project-1 .project-2 .project-3{
     display: flex;
     justify-content: center;
 }
